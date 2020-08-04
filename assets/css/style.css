@@ -1,0 +1,130 @@
+body{
+    background-image: url("/assets/img/bg-img.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat' !important;
+}
+
+
+@media (min-width:576px){
+.navbar #nav-button1{
+    display: none;
+}
+.navbar #nav-button2{
+    display: none;
+}
+}
+@media (min-width:768px){
+    .navbar #nav-button1{
+        display: block;
+    }
+    .navbar #nav-button2{
+        display: block;
+    }
+    
+}
+
+@media (min-width:992px){
+    .navbar #nav-button1{
+        display: block;
+    }
+    .navbar #nav-button2{
+        display: block;
+    }
+    
+}
+@media (min-width:1200px){
+    .navbar #nav-button1{
+        display: block;
+    }
+    .navbar #nav-button2{
+        display: block;
+    }
+    
+}
+
+
+
+.thumbnail-img-size{
+    max-height: 300px;
+    height: 100%;
+    max-width: 500px;
+    width: 100%;
+}
+
+.carousel-inner{
+    max-height: 600px;
+}
+.nav-logo{
+    max-width: 60px;
+    width: 100%;
+    max-height: 60px;
+    height: 100%;
+}
+
+.carousel-img{
+    max-height: 600px;
+    height: 100%;
+}
+
+
+#features {
+    text-align: center;
+    padding: 100px;
+ 
+    color: #Fff;
+    z-index: 1;
+    position: relative;
+}
+.title-logo {
+  max-width: 100px;
+}
+.fas {
+    font-size: 3.5rem;
+    padding: 30px;
+    color: #Fff;
+}
+
+.paragraph-bg-color{
+    background-color: #bccec5ce;
+    
+}
+
+.testimonial-text-color{
+    color: #be1717;
+}
+
+
+#cta {
+    background-color: #8f8f8f ;
+    color: #Fff;
+  }
+  .cta-button {
+     margin: 40px 10px 10px;
+  }
+  .cta-header {
+    margin: 50px;
+  }
+  .cta-download {
+    padding: 50px;
+  }
+
+footer {
+    text-align: center;
+    
+}
+.footer-message {
+    padding: 20px;
+    color: #f0b7b7;
+}
+.soc-med {
+    margin: 10px;
+    padding-bottom: 20px;
+    color: black;
+}
+
+.test-bg-color{
+    background-color:  #fadfdf94;
+}
